@@ -2,11 +2,7 @@
 
 **β-VAE disentanglement.** A convolutional β-VAE on dSprites: can single latent dimensions line up with size, position and rotation?
 
-Part of the **Latent Space Project**: 18 small PyTorch repos that test one idea, that neural networks encode concepts and strategy in their latent space, and that we can read and edit those representations. Everything trains on a single consumer GPU or a laptop.
-
-| Roadmap | Phase | Depends on | Status |
-| --- | --- | --- | --- |
-| 13 of 18 | 5. Representation and generation | Nothing | Not started (scaffolded) |
+**Status:** not started.
 
 ## Question
 
@@ -28,7 +24,7 @@ Can single latent dimensions line up with single concepts such as size, position
 
 - A traversal grid shows individual dimensions controlling scale and x and y position. Rotation is often harder; report what happens.
 
-Plus the definition of done every Latent Space Project repo shares:
+Plus the general checklist:
 
 Apply this checklist with the project-specific requirements and exceptions in
 [CLAUDE.md](CLAUDE.md#project-specific-scope).
